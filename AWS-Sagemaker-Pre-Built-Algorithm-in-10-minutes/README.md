@@ -1,4 +1,5 @@
 # How I Deployed a Pre-Built Algorithm on AWS SageMaker in 10 Minutes
+![alt text](image.png)
 In today's fast-paced world of machine learning, the ability to quickly deploy algorithms can significantly impact productivity and innovation. Amazon SageMaker stands out as a powerful platform that simplifies the deployment process, allowing data scientists and developers to focus on building and refining their models rather than getting bogged down by the intricacies of deployment.
 
 # Introduction
