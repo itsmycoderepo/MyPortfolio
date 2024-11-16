@@ -1,14 +1,15 @@
-# How I Deployed a Pre-Built Algorithm on AWS SageMaker in 10 Minutes
-![alt text](image.png)
-
- Check my medium blog [How I Deployed a Pre-Built Algorithm on AWS SageMaker in 10 Minutes?](https://the-ml-engineer-guy.medium.com/how-i-deployed-a-pre-built-algorithm-on-aws-sagemaker-in-10-minutes-738e181ca3e1)
-
 # Databricks-Mosaic AI: Building GenAI Solutions with Databricks
 
 ![alt text](databricksMosaicAI.png)
 
+Check out my blogs on Databricks-Mosaic AI!
+I’ve written two detailed blogs about building and deploying Generative AI (GenAI) solutions using Databricks and Mosaic AI. These blogs walk through the entire process, from data ingestion to model deployment and monitoring. Check them out for a deeper dive:
+
+[Databricks-Mosaic AI: Building GenAI Solutions with Databricks]()
+[Databricks-Mosaic AI: GenAI + RAG Application on Databricks]()
+
 # Overview
-This guide provides a high-level overview of building Generative AI (GenAI) solutions using Mosaic AI on the Databricks platform. It integrates the power of MosaicML's model training tools, acquired by Databricks in 2023, enabling a complete GenAI solution from data ingestion to model deployment and monitoring.
+This guide provides a detailed overview of building Complete Generative AI (GenAI) solutions using Mosaic AI on Databricks platform. It integrates the power of MosaicAI's tools, enabling a complete GenAI solution from data ingestion to model deployment and monitoring.
 
 # Key Components
 # 1. Data Ingestion
