@@ -3,26 +3,47 @@
 
  Check my medium blog [How I Deployed a Pre-Built Algorithm on AWS SageMaker in 10 Minutes?](https://the-ml-engineer-guy.medium.com/how-i-deployed-a-pre-built-algorithm-on-aws-sagemaker-in-10-minutes-738e181ca3e1)
 
-In today's fast-paced world of machine learning, the ability to quickly deploy algorithms can significantly impact productivity and innovation. Amazon SageMaker stands out as a powerful platform that simplifies the deployment process, allowing data scientists and developers to focus on building and refining their models rather than getting bogged down by the intricacies of deployment.
+# Databricks-Mosaic AI: Building GenAI Solutions with Databricks
 
-# Introduction
-In this project, I'll take you through my experience deploying a pre-built algorithm on SageMaker in just 10 minutes. But why focus on pre-built algorithms? Building algorithms from scratch requires significant time and expertise, often diverting attention from experimentation and innovation. By leveraging pre-built algorithms, we can quickly validate ideas, test hypotheses, and pivot as needed—all without the steep learning curve associated with custom development.
+![alt text](databricksMosaicAI.png)
 
-# Key Features of Amazon SageMaker
-Intuitive Interface: SageMaker's user-friendly interface makes it easy to navigate and set up your deployment.
-Seamless Scaling: The powerful infrastructure behind SageMaker supports seamless scaling, accommodating varying workloads without hassle.
-Rapid Prototyping: Quickly validate your ideas with pre-built algorithms, enabling you to focus on refining your models rather than getting bogged down in implementation details.
-Steps to Rapid Deployment
-Here’s a brief outline of the exact steps I took to achieve this rapid deployment using a pre-built algorithm:
+# Overview
+This guide provides a high-level overview of building Generative AI (GenAI) solutions using Mosaic AI on the Databricks platform. It integrates the power of MosaicML's model training tools, acquired by Databricks in 2023, enabling a complete GenAI solution from data ingestion to model deployment and monitoring.
 
-Choose a Pre-Built Algorithm: Select the pre-built algorithm that fits your use case from the available options in SageMaker.
-Prepare Your Data: Ensure your data is in the required format for the chosen algorithm, including any necessary preprocessing steps.
-Set Up a Training Job: Configure the training job with your data and algorithm parameters, specifying the instance type and count as needed.
-Launch the Training Job: Start the training process and monitor its progress through the SageMaker console, ensuring it completes successfully.
-Deploy the Model: Once the model is trained, deploy it to a SageMaker endpoint for real-time inference.
+# Key Components
+# 1. Data Ingestion
+
+- Automate the ingestion of raw data (e.g., PDFs) using Databricks' Auto-loader.
+- Clean and store data in Delta Tables for efficient querying and management.
+- Implement Unity Catalog for secure data governance.
+
+# 2. Vector Search
+
+- Convert textual data into vector embeddings for semantic search.
+- Use Databricks' Vector Search Index to store embeddings and enable fast similarity searches.
+
+# 3. Model Lifecycle Management
+
+- Track and manage models with MLflow, including experiment tracking and model versioning.
+- Deploy models using MLflow Model Serving for real-time inference.
+
+# 4. Generative AI Inferences
+
+- Perform real-time similarity searches and use Large Language Models (LLMs) for AI-driven applications such as content generation or Q&A.
+- Enable conversational AI through Databricks’ LLM Chat Endpoints.
+
+# 5. Monitoring & Governance
+
+- Use Lakehouse Monitoring to track pipeline performance, model health, and data quality.
+- Ensure compliance and security with Unity Catalog, managing permissions and audit trails across data and models.
+
+# Why Databricks?
+Unified Platform: Databricks provides an end-to-end solution for GenAI, from data management to deployment and monitoring.
+Custom Model Training: Use DBRX, a high-performance custom LLM developed by Mosaic AI, to train and deploy models with ease.
+Cost-Effective & Scalable: Train custom LLMs and handle large-scale vector databases at a fraction of the traditional costs.
 
 # Conclusion
-Whether you're a seasoned practitioner or a newcomer to the field, my journey demonstrates how you can harness the power of SageMaker to accelerate your projects and drive impactful outcomes. By utilizing pre-built algorithms, you can unlock the potential for rapid deployment and exploration in your machine learning endeavors.
+Mosaic AI on Databricks offers a powerful, all-in-one platform to build, deploy, and scale Generative AI solutions with complete ownership over your models and data. With integrated governance, real-time data syncing, and cost-effective model training, it is ideal for enterprises looking to innovate in the GenAI space.
 
 # Get Started
 Let's explore how you can unlock the potential of pre-built algorithms and get started with your own deployment in no time! For more detailed steps and tips, feel free to check out the accompanying blog post or reach out with any questions.
