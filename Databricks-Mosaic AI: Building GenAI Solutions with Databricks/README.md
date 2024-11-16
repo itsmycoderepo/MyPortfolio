@@ -6,6 +6,8 @@ Check out my blogs on Databricks-Mosaic AI!
 I’ve written two detailed blogs about building and deploying Generative AI (GenAI) solutions using Databricks and Mosaic AI. These blogs walk through the entire process, from data ingestion to model deployment and monitoring. Check them out for a deeper dive:
 
 [Databricks-Mosaic AI: Building GenAI Solutions with Databricks]()
+</br>
+
 [Databricks-Mosaic AI: GenAI + RAG Application on Databricks]()
 
 # Overview
